@@ -11,4 +11,3 @@ Os valores NULOS estão representados pelo valor -99999
 
 A análise de variações nos preços dos combustíveis é importante devido ao impacto econômico significativo que ele causa no bolso dos consumidores brasileiros e que afeta custos de produção e o custo de transporte de bens e serviços, além disso, o constante aumento dos preços pode impulsionar uma crescente transição para fontes de energias sustentáveis e carros elétricos.
 
-bla bla
