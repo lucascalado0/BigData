@@ -20,23 +20,23 @@ A análise de variações nos preços dos combustíveis é importante devido ao 
 
 DICIONÁRIO DE VARIÁVEIS
 
--DATA INICIAL - Data de início da coleta de dados
--DATA FINAL - Data final da coleta de dados(neste dataset as datas inicial e final correspondem ao período de uma semana)
--REGIÂO - Região brasileira onde foi feita a coleta de dados
--ESTADO - Estado brasileiro onde foi feito a coleta de dados
--PRODUTO - Tipo de combustível analisado
--NÚMERO DE POSTOS PESQUISADOS - Quantidade de postos pesquisados durante o período de coleta(uma semana)
--UNIDADE DE MEDIDA - Unidade de medida utilizada para representar o combustível e método de venda (ex: R$/Litro)
--PREÇO MÉDIO REVENDA - Média do preço final cobrado ao consumidor nos postos de combustíveis
--DESVIO PADRÃO REVENDA - Calculo do grau de variação nos preços de revenda
--PREÇO MÍNIMO REVENDA - Menor preço encontrado nos postos de combustíveis durante o período pesquisado
--PREÇO MÁXIMO REVENDA - Maior preço encontrado nos postos de combustíveis durante o período pesquisado
--MARGEM MÉDIA REVENDA - Média da margem de lucro obtida na revenda durante o período pesquisado
--COEFICIENTE DE VARIAÇÃO REVENDA - Variabilidade do preço de distribuição em relação média observada
--PREÇO MÉDIO DISTRIBUIÇÃO - Média do preço de venda dos combustíveis para os postos
--DESVIO PADRÃO DISTRIBUIÇÃO - Calculo do grau de variação do preço pago pelos postos nas distribuidoras
--PREÇO MÍNIMO DE DISTRIBUIÇÃO - Preço mínimo pago pelos postos nos combustíveis
--PREÇO MÁXIMO DE DISTRIBUIÇÃO - Preço máximo pago pelos postos nos combustíveis
--COEFICIENTE DE VARIAÇÃO DISTRIBUIÇÃO - Variabilidade do preço de distribuição em relação média observada
+-DATA INICIAL - Data de início da coleta de dados (Dtype - datetime)
+-DATA FINAL - Data final da coleta de dados(neste dataset as datas inicial e final correspondem ao período de uma semana) (Dtype - datetime)
+-REGIÂO - Região brasileira onde foi feita a coleta de dados (Dtype - Object)
+-ESTADO - Estado brasileiro onde foi feito a coleta de dados (Dtype - Object)
+-PRODUTO - Tipo de combustível analisado (Dtype - Object)
+-NÚMERO DE POSTOS PESQUISADOS - Quantidade de postos pesquisados durante o período de coleta(uma semana) (Dtype - int64)
+-UNIDADE DE MEDIDA - Unidade de medida utilizada para representar o combustível e método de venda (ex: R$/Litro) (Dtype - Object)
+-PREÇO MÉDIO REVENDA - Média do preço final cobrado ao consumidor nos postos de combustíveis (Dtype - float64)
+-DESVIO PADRÃO REVENDA - Calculo do grau de variação nos preços de revenda (Dtype - float64)
+-PREÇO MÍNIMO REVENDA - Menor preço encontrado nos postos de combustíveis durante o período pesquisado (Dtype - float64)
+-PREÇO MÁXIMO REVENDA - Maior preço encontrado nos postos de combustíveis durante o período pesquisado (Dtype - float64)
+-MARGEM MÉDIA REVENDA - Média da margem de lucro obtida na revenda durante o período pesquisado (Dtype - object)
+-COEFICIENTE DE VARIAÇÃO REVENDA - Variabilidade do preço de distribuição em relação média observada (Dtype - float64)
+-PREÇO MÉDIO DISTRIBUIÇÃO - Média do preço de venda dos combustíveis para os postos  (Dtype - object)
+-DESVIO PADRÃO DISTRIBUIÇÃO - Calculo do grau de variação do preço pago pelos postos nas distribuidoras (Dtype - object)
+-PREÇO MÍNIMO DE DISTRIBUIÇÃO - Preço mínimo pago pelos postos nos combustíveis (Dtype - object)
+-PREÇO MÁXIMO DE DISTRIBUIÇÃO - Preço máximo pago pelos postos nos combustíveis (Dtype - object)
+-COEFICIENTE DE VARIAÇÃO DISTRIBUIÇÃO - Variabilidade do preço de distribuição em relação média observada (Dtype - object)
 
 ---------------------------------------------------------------------------------------------------------------------------------------------------
